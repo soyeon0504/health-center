@@ -7,11 +7,15 @@ export type ImageIcon = {
   url: string;
   size: naver.maps.Size;
   origin: naver.maps.Point;
-  anchor: naver.maps.Point;
-}
+  scaledSize: naver.maps.Size;
+};
+
 
 // 네이버 마커를 위한 데이터 타입
 export type Marker = {
   map: NaverMap;
   coordinates: Coordinates;
+  icon: ImageIcon;
+  // 사용자가 클릭한 경우 처리
+  onClick: () => void;
 };
