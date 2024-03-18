@@ -16,3 +16,7 @@
 - copy-to-clipboard
 - Git/GitHub
 - 공공 API(보건소API)
+
+## 프로젝트 빌드 시 주의사항
+
+- Next.js 
