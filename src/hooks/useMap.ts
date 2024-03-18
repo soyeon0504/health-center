@@ -11,7 +11,7 @@ export const Map_KEY = '/map';
 // 함수 실행후 {함수, 값} 리턴
 export const useMap = () => {
   // SWR 에 보관하고 있는 좌표정보
-  const { data: map } = useSWR<NaverMap>(Map_KEY);
+  const { data: map } = useSWR(Map_KEY);
 
   // 지도에 필요한 값 초기화 함수
   const initializeMap = useCallback((map?: NaverMap) => {
@@ -25,6 +25,7 @@ export const useMap = () => {
     // morph(coord, zoom, transitionOptions)
     map?.morph(new naver.maps.LatLng(...INITIAL_CENTER), INITIAL_ZOOM);
   }, [map]);
+
   // 좌표 정보 얻어오기
   const getMapOption = useCallback(() => {
     // 네이버 API 좌표의 위치를 읽는다.
