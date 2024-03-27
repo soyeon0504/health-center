@@ -14,7 +14,7 @@ export default function RootLayout({
   return (
     <html lang="ko">
       <head>
-      <meta name="naver-site-verification" content="b0f4d84f68c0fd2e40d8a29f8bed00a3b49742b0" />
+      <meta name="naver-site-verification" content="34354046817ce9ba08c0873250fe14840eb042f2" />
         {/* <link
           rel="canonical"
           href="https://health-center-nkl8aj2lq-soyeon.vercel.app"
