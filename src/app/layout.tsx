@@ -15,12 +15,12 @@ export default function RootLayout({
     <html lang="ko">
       <head>
       <meta name="naver-site-verification" content="34354046817ce9ba08c0873250fe14840eb042f2" />
-        {/* <link
+        <link
           rel="canonical"
-          href="https://health-center-nkl8aj2lq-soyeon.vercel.app"
+          href="https://health-center-sigma.vercel.app"
         ></link>
 
-        <meta
+        {/* <meta
           name="google-site-verification"
           content="Q2bHOLs6jaFYy4NK_gCCdUCjf270wQ8zYE_nerDd7lw"
         />
